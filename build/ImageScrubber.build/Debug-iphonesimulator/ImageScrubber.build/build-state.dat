@@ -1,770 +1,0 @@
-TImageScrubber
-v7
-r0
-t292594894.498932
-cCheck dependencies
-cProcessInfoPlistFile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Info.plist ImageScrubber-Info.plist
-cCompileXIB /Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib
-cCpResource build/Debug-iphonesimulator/ImageScrubber.app/Nature Nature
-cCompileXIB /Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib
-cProcessPCH /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch.gch ImageScrubber_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/main.o /Volumes/WORK/my_tools/ImageScrubber2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberAppDelegate.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberViewController.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber normal i386
-cGenerateDSYMFile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app.dSYM /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber
-cTouch /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk
-c000000004BBC38090000000000000110
-t1270626313
-s272
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004BA03AB3000000000026F020
-t1268791987
-s2551840
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004B9F1DE40000000000289C20
-t1268719076
-s2661408
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004B9F1DD60000000000001355
-t1268719062
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004BA6CAEC000000000000098F
-t1269222124
-s2447
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004BA6CB31000000000214E400
-t1269222193
-s34923520
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m
-c000000004BBD998C000000000000124E
-t1270716812
-s4686
-i"ImageScrubberToolbar.h"
-i"ImageScrubberToolbarDelegate.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.h
-c000000004BBDA16400000000000001B6
-t1270718820
-s438
-i<UIKit/UIKit.h>
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m
-c000000004BBDA43200000000000002F0
-t1270719538
-s752
-i"ImageScrubberAppDelegate.h"
-i"ImageScrubberViewController.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.h
-c000000004BBF08E4000000000000025E
-t1270810852
-s606
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i"ImageScrubberToolbarDelegate.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m
-c000000004BBF19C00000000000001310
-t1270815168
-s4880
-i"ImageScrubberToolbar.h"
-i"ImageScrubberToolbarDelegate.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbarDelegate.h
-c000000004BBD9B0400000000000000FF
-t1270717188
-s255
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.h
-c000000004BBD9F6800000000000001DA
-t1270718312
-s474
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i"ImageScrubberToolbarDelegate.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m
-c000000004BBECBEE0000000000000BBD
-t1270795246
-s3005
-i"ImageScrubberViewController.h"
-i"ImageScrubberToolbar.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Fruit
-c000000004BBC4A100000000000004000
-t1270630928
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberToolbar.h
-c000000004BBD7C140000000000000233
-t1270709268
-s563
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i"ImageScrubberToolbarDelegate.h"
-
-N/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib
-c000000004BBDA4080000000000004BB7
-t1270719496
-s19383
-
-N/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber_Prefix.pch
-c000000004BBC404600000000000000C3
-t1270628422
-s195
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib
-c000000004BBDA07A00000000000046C5
-t1270718586
-s18117
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature
-c000000004BBECA6E0000000000004000
-t1270794862
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Aurora.jpg
-c000000004A6E8A140000000000086BF0
-t1248758292
-s551920
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Cirques.jpg
-c000000004A6E8A1400000000001781ED
-t1248758292
-s1540589
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Clown Fish.jpg
-c000000004A6E8A1400000000000FF1A1
-t1248758292
-s1044897
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Dew Drop.jpg
-c000000004A6E8A1400000000000A0DA7
-t1248758292
-s658855
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Earth Horizon.jpg
-c000000004A6E8A1400000000000BE1DF
-t1248758292
-s778719
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Earth.jpg
-c000000004A6E8A1400000000001C646A
-t1248758292
-s1860714
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Evening Reflections.jpg
-c000000004A6E8A14000000000011FFC1
-t1248758292
-s1179585
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Flowing Rock.jpg
-c000000004A6E8A14000000000019C0D1
-t1248758292
-s1687761
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Gentle Rapids.jpg
-c000000004A6E8A1400000000000A045F
-t1248758292
-s656479
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Golden Palace.jpg
-c000000004A6E8A14000000000035FE3A
-t1248758292
-s3538490
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Horizon.jpg
-c000000004A6E8A1400000000000C3AF6
-t1248758292
-s801526
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Iceberg.jpg
-c000000004A6E8A1400000000000FD37F
-t1248758292
-s1037183
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Ladybug.jpg
-c000000004A6E8A140000000000092C87
-t1248758292
-s601223
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Leopard Aurora.jpg
-c000000004A6E8A140000000000051DEA
-t1248758292
-s335338
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Pond Reeds.jpg
-c000000004A6E8A1400000000000F6FDF
-t1248758292
-s1011679
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Rock Garden.jpg
-c000000004A6E8A1400000000003BE323
-t1248758292
-s3924771
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Rocks.jpg
-c000000004A6E8A140000000000110D16
-t1248758292
-s1117462
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Snow Leopard Prowl.jpg
-c000000004A6E8A14000000000011F964
-t1248758292
-s1177956
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Snow Leopard.jpg
-c000000004A6E8A140000000000163ADB
-t1248758292
-s1456859
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Snowy Hills.jpg
-c000000004A6E8A14000000000009B04B
-t1248758292
-s634955
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Stones.jpg
-c000000004A6E8A140000000000187694
-t1248758292
-s1603220
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Summit.jpg
-c000000004A6E8A140000000000130815
-t1248758292
-s1247253
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Tahoe.jpg
-c000000004A6E8A14000000000010A404
-t1248758292
-s1090564
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Tranquil Surface.jpg
-c000000004A6E8A1400000000000F8354
-t1248758292
-s1016660
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Water.jpg
-c000000004A6E8A14000000000007286A
-t1248758292
-s469098
-
-N/Volumes/WORK/my_tools/ImageScrubber2/Nature/Zebra.jpg
-c000000004A6E8A14000000000010359A
-t1248758292
-s1062298
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app
-t1270902094
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app.dSYM
-t1270902094
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Aurora.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Cirques.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Clown Fish.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Dew Drop.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Earth Horizon.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Earth.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Evening Reflections.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Flowing Rock.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Fruit
-t1270712316
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Gentle Rapids.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Golden Palace.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Horizon.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Iceberg.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber
-t1270902094
-s31436
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubberViewController.nib
-t1270722162
-s1120
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Info.plist
-t1270722160
-s822
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Ladybug.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Leopard Aurora.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/MainWindow.nib
-t1270722162
-s984
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Nature
-t1270795248
-s16384
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/PkgInfo
-t1270722160
-s8
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Pond Reeds.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Rock Garden.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Rocks.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Snow Leopard Prowl.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Snow Leopard.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Snowy Hills.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Stones.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Summit.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Tahoe.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Tranquil Surface.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Water.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Zebra.jpg
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/selection.png
-t1270712316
-s6363
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubber.LinkFileList
-c000000004BBDAE70000000000000024F
-t1270722160
-s591
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberAppDelegate.o
-t1270722162
-s42544
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o
-t1270902094
-s28164
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberViewController.o
-t1270810986
-s42196
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/main.o
-t1270722162
-s5940
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberAppDelegate.plist
-t1270798896
-s275
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberToolbar.plist
-t2
-s0
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberViewController.plist
-t1270798896
-s275
-
-N/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/main.plist
-t1270798896
-s275
-
-N/Volumes/WORK/my_tools/ImageScrubber2/main.m
-c000000004BBCA0D40000000000000174
-t1270653140
-s372
-i<UIKit/UIKit.h>
-
-N/Volumes/WORK/my_tools/ImageScrubber2/selection.png
-c000000004BBC88D800000000000018DB
-t1270647000
-s6363
-
-N/var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch.gch
-t1270712317
-s13805456
-
-N/var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch.pth
-t1270798897
-s1825816
-
-NImageScrubber-Info.plist
-c000000004BBC404600000000000004D6
-t1270628422
-s1238
-
-CAnalyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m
-s292491697.122318
-e292491697.151028
-r1
-xAnalyze
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m
-lSLF07#2@80"Analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m292491697#292491697#0(0"0(0#0#72"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m4300911832#2023"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch --analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberAppDelegate.plist0#
-
-CAnalyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m
-s292491697.145678
-e292491697.175823
-r1
-xAnalyze
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m
-o/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:66:3: error: expected ';' at end of declaration
-o                 if (w > self.frame.size.width)
-o                 ^
-o/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:71:3: error: use of undeclared identifier 'leftMargin'
-o                 leftMargin = [self leftMargin];
-o                 ^
-o/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:87:31: error: use of undeclared identifier 'leftMargin'
-o                         imgView.frame = CGRectMake(leftMargin + SMALL_SIZE*i,
-o                                                    ^
-o/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:94:43: error: use of undeclared identifier 'leftMargin'
-o                 [selectionImageView setFrame:CGRectMake(leftMargin-SIZE_DIF, 0, LARGE_SIZE, LARGE_SIZE)];
-o                                                         ^
-o4 diagnostics generated.
-lSLF07#2@76"Analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491697#292491697#0(950"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:66:3: error: expected ';' at end of declaration                 if (w > self.frame.size.width)                 ^/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:71:3: error: use of undeclared identifier 'leftMargin'                 leftMargin = [self leftMargin];                 ^/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:87:31: error: use of undeclared identifier 'leftMargin'                         imgView.frame = CGRectMake(leftMargin + SMALL_SIZE*i,                                                    ^/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m:94:43: error: use of undeclared identifier 'leftMargin'                 [selectionImageView setFrame:CGRectMake(leftMargin-SIZE_DIF, 0, LARGE_SIZE, LARGE_SIZE)];                                                         ^4 diagnostics generated.1(25@46"Analyzer skipped this file due to parse errors292491697#18446744073709551615#0#4(25@34"expected ';' at end of declaration292491697#18446744073709551615#0#0(6@68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491692#66#0#66#0#0"0(25@41"use of undeclared identifier 'leftMargin'292491697#18446744073709551615#0#0(6@68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491692#71#0#71#0#0"0(25@41"use of undeclared identifier 'leftMargin'292491697#18446744073709551615#0#0(6@68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491692#87#0#87#0#0"0(25@41"use of undeclared identifier 'leftMargin'292491697#18446744073709551615#0#0(6@68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491692#94#0#94#0#0"0(6@68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292491692#0#0#0#0#0"0(0#0#68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m4300911832#2015"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch --analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberToolbar.plist0#
-
-CAnalyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m
-s292491697.151121
-e292491697.182969
-r1
-xAnalyze
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m
-lSLF07#2@83"Analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m292491697#292491697#0(0"0(0#0#75"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m4300911832#2029"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch --analyze /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/ImageScrubberViewController.plist0#
-
-CAnalyze /Volumes/WORK/my_tools/ImageScrubber2/main.m
-s292491697.066704
-e292491697.145582
-r1
-xAnalyze
-x/Volumes/WORK/my_tools/ImageScrubber2/main.m
-lSLF07#2@52"Analyze /Volumes/WORK/my_tools/ImageScrubber2/main.m292491697#292491697#0(0"0(0#0#44"/Volumes/WORK/my_tools/ImageScrubber2/main.m4300911832#1975"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch --analyze /Volumes/WORK/my_tools/ImageScrubber2/main.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/StaticAnalyzer/normal/i386/main.plist0#
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies292594893#292594893#0(0"0(0#1#0"4300911832#0"0#
-
-CCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberAppDelegate.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292414963.438898
-e292414963.523576
-r1
-xCompileC
-xbuild/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberAppDelegate.o
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@80"Compile /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m292414963#292414963#0(0"0(0#0#72"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m4300911832#2014"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch -c /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberAppDelegate.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberAppDelegate.o0#
-
-CCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292410129.939562
-e292410130.023444
-r1
-xCompileC
-xbuild/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@79"Compile /Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m292410129#292410130#0(0"0(0#0#71"/Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m4300911832#2009"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch -c /Volumes/WORK/my_tools/ImageScrubber2/Classes/../ImageScrubberToolbar.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o0#
-
-CCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292594893.854157
-e292594894.227167
-r1
-xCompileC
-xbuild/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@76"Compile /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m292594893#292594894#0(0"0(0#0#68"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m4300911832#2006"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch -c /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberToolbar.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberToolbar.o0#
-
-CCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberViewController.o /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292503787.212725
-e292503787.285411
-r1
-xCompileC
-xbuild/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberViewController.o
-x/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@83"Compile /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m292503787#292503787#0(0"0(0#0#75"/Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m4300911832#2020"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch -c /Volumes/WORK/my_tools/ImageScrubber2/Classes/ImageScrubberViewController.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubberViewController.o0#
-
-CCompileC build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/main.o /Volumes/WORK/my_tools/ImageScrubber2/main.m normal i386 objective-c com.apple.compilers.gcc.4_2
-s292414963.438053
-e292414963.493044
-r1
-xCompileC
-xbuild/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/main.o
-x/Volumes/WORK/my_tools/ImageScrubber2/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@52"Compile /Volumes/WORK/my_tools/ImageScrubber2/main.m292414963#292414963#0(0"0(0#0#44"/Volumes/WORK/my_tools/ImageScrubber2/main.m4300911832#1966"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -include /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch -c /Volumes/WORK/my_tools/ImageScrubber2/main.m -o /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/main.o0#
-
-CCompileXIB /Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib
-s292414961.876583
-e292414963.437844
-r1
-xCompileXIB
-x/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib
-lSLF07#2@42"CompileXIB ImageScrubberViewController.xib292414961#292414963#0(0"0(0#0#69"/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib4300911832#517"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubberViewController.nib /Volumes/WORK/my_tools/ImageScrubber2/ImageScrubberViewController.xib0#
-
-CCompileXIB /Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib
-s292414961.856258
-e292414963.436580
-r1
-xCompileXIB
-x/Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib292414961#292414963#0(0"0(0#0#52"/Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib4300911832#483"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/MainWindow.nib /Volumes/WORK/my_tools/ImageScrubber2/MainWindow.xib0#
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Clown Fish.jpg" "Nature/Clown Fish.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Dew Drop.jpg" "Nature/Dew Drop.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Earth Horizon.jpg" "Nature/Earth Horizon.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Evening Reflections.jpg" "Nature/Evening Reflections.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Flowing Rock.jpg" "Nature/Flowing Rock.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Gentle Rapids.jpg" "Nature/Gentle Rapids.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Golden Palace.jpg" "Nature/Golden Palace.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Leopard Aurora.jpg" "Nature/Leopard Aurora.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Pond Reeds.jpg" "Nature/Pond Reeds.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Rock Garden.jpg" "Nature/Rock Garden.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Snow Leopard Prowl.jpg" "Nature/Snow Leopard Prowl.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Snow Leopard.jpg" "Nature/Snow Leopard.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Snowy Hills.jpg" "Nature/Snowy Hills.jpg"
-r0
-
-CCpResource "build/Debug-iphonesimulator/ImageScrubber.app/Tranquil Surface.jpg" "Nature/Tranquil Surface.jpg"
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Aurora.jpg Nature/Aurora.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Cirques.jpg Nature/Cirques.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Earth.jpg Nature/Earth.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Fruit Fruit
-s292405116.345564
-e292405116.390114
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageScrubber.app/Fruit
-xFruit
-lSLF07#2@10"Copy Fruit292405116#292405116#0(0"0(0#0#43"/Volumes/WORK/my_tools/ImageScrubber2/Fruit4300911832#452"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/WORK/my_tools/ImageScrubber2/Fruit /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Horizon.jpg Nature/Horizon.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Iceberg.jpg Nature/Iceberg.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Ladybug.jpg Nature/Ladybug.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Nature Nature
-s292488048.273158
-e292488048.376972
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageScrubber.app/Nature
-xNature
-lSLF07#2@11"Copy Nature292488048#292488048#0(0"0(0#0#44"/Volumes/WORK/my_tools/ImageScrubber2/Nature29555366482477168#453"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/WORK/my_tools/ImageScrubber2/Nature /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app0#
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Rocks.jpg Nature/Rocks.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Stones.jpg Nature/Stones.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Summit.jpg Nature/Summit.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Tahoe.jpg Nature/Tahoe.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Water.jpg Nature/Water.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/Zebra.jpg Nature/Zebra.jpg
-r0
-
-CCpResource build/Debug-iphonesimulator/ImageScrubber.app/selection.png selection.png
-s292405116.369261
-e292405116.389276
-r1
-xCpResource
-xbuild/Debug-iphonesimulator/ImageScrubber.app/selection.png
-xselection.png
-lSLF07#2@18"Copy selection.png292405116#292405116#0(0"0(0#0#51"/Volumes/WORK/my_tools/ImageScrubber2/selection.png4300911832#460"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -resolve-src-symlinks /Volumes/WORK/my_tools/ImageScrubber2/selection.png /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app0#
-
-CGenerateDSYMFile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app.dSYM /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber
-s292594894.455001
-e292594894.496851
-r1
-xGenerateDSYMFile
-x/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app.dSYM
-x/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber
-lSLF07#2@127"GenerateDSYMFile build/Debug-iphonesimulator/ImageScrubber.app.dSYM build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber292594894#292594894#0(0"0(0#0#97"/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber4300911832#398"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/dsymutil /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber -o /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app.dSYM0#
-
-CLd /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber normal i386
-s292594894.227259
-e292594894.454899
-r1
-xLd
-x/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber
-xnormal
-xi386
-lSLF07#2@102"Link /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber292594894#292594894#0(0"0(0#0#0"4300911832#887"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -L/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -filelist /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/Objects-normal/i386/ImageScrubber.LinkFileList -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -o /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/ImageScrubber0#
-
-CProcessInfoPlistFile /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Info.plist ImageScrubber-Info.plist
-s292414961.850514
-e292414961.856181
-r1
-xProcessInfoPlistFile
-x/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Info.plist
-xImageScrubber-Info.plist
-lSLF07#2@32"Process ImageScrubber-Info.plist292414961#292414961#0(0"0(0#0#62"/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber-Info.plist4300911832#494"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    builtin-infoPlistUtility ImageScrubber-Info.plist -genpkginfo /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/PkgInfo -expandbuildsettings -format binary -platform iphonesimulator -o /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app/Info.plist0#
-
-CProcessPCH /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch.gch ImageScrubber_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s292405116.612310
-e292405117.245644
-r1
-xProcessPCH
-x/var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch.gch
-xImageScrubber_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@35"Precompile ImageScrubber_Prefix.pch292405116#292405117#0(0"0(0#0#62"/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber_Prefix.pch4300911832#1853"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -c /Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber_Prefix.pch -o /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-bfshjixibftuqnftfqrqgasbzlvh/ImageScrubber_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch.pth ImageScrubber_Prefix.pch normal i386 objective-c com.apple.compilers.llvm.clang.1_0.analyzer
-s292491696.727068
-e292491697.010976
-r1
-xProcessPCH
-x/var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch.pth
-xImageScrubber_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.llvm.clang.1_0.analyzer
-lSLF07#2@35"Precompile ImageScrubber_Prefix.pch292491696#292491697#0(0"0(0#0#62"/Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber_Prefix.pch4300911832#1844"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /Developer/usr/bin/clang -x objective-c-header -arch i386 -fmessage-length=0 -pipe -fdiagnostics-print-source-range-info -std=c99 -Wno-trigraphs -fpascal-strings -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30200 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.2.sdk -fasm-blocks -mmacosx-version-min=10.5 -gdwarf-2 -fvisibility=hidden -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-generated-files.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-own-target-headers.hmap -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-all-target-headers.hmap -iquote /Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/ImageScrubber-project-headers.hmap -F/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator -I/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/include -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources/i386 -I/Volumes/WORK/my_tools/ImageScrubber2/build/ImageScrubber.build/Debug-iphonesimulator/ImageScrubber.build/DerivedSources -c /Volumes/WORK/my_tools/ImageScrubber2/ImageScrubber_Prefix.pch -o /var/folders/p9/p99De9ENFz0odO+fPlDNQ++++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/ImageScrubber_Prefix-brabvfifkzfflcadrqwuunvszdgc/ImageScrubber_Prefix.pch.pth0#
-
-CTouch /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app
-s292594894.496942
-e292594894.498895
-r1
-xTouch
-x/Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app
-lSLF07#2@89"Touch /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app292594894#292594894#0(0"0(0#0#0"4300911832#282"    cd /Volumes/WORK/my_tools/ImageScrubber2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin"    /usr/bin/touch -c /Volumes/WORK/my_tools/ImageScrubber2/build/Debug-iphonesimulator/ImageScrubber.app0#
-
